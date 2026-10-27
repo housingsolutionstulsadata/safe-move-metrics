@@ -64,7 +64,7 @@
     {
       "id": "conditions.closed",
       "label": "Encampments closed",
-      "value": null,
+      "value": 12,
       "unit": "count",
       "count": null,
       "denominator": null,
@@ -73,7 +73,7 @@
     {
       "id": "conditions.maintenance_plans",
       "label": "With maintenance plans",
-      "value": null,
+      "value": 12,
       "unit": "count",
       "count": null,
       "denominator": null,
@@ -82,7 +82,7 @@
     {
       "id": "conditions.remain_closed",
       "label": "Encampments that remain closed",
-      "value": null,
+      "value": 12,
       "unit": "count",
       "count": null,
       "denominator": null,
@@ -91,16 +91,16 @@
     {
       "id": "conditions.remain_closed_pct",
       "label": "Remained closed",
-      "value": null,
+      "value": 100,
       "unit": "percent",
-      "count": null,
-      "denominator": null,
+      "count": 12,
+      "denominator": 12,
       "definition": "Encampments that remain closed, divided by encampments closed."
     },
     {
       "id": "conditions.tons_cleared",
       "label": "Tons of garbage cleared",
-      "value": null,
+      "value": 189.58,
       "unit": "count",
       "count": null,
       "denominator": null,
