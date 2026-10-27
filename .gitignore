@@ -1,0 +1,7 @@
+# data files never go to GitHub (Safe Move publisher)
+*.csv
+*.xlsx
+*.xls
+*.xlsm
+*.zip
+input/
