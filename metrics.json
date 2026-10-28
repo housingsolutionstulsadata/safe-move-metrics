@@ -1,10 +1,10 @@
 {
   "schema": "smt-cot-metrics/1",
   "title": "Safe Move Tulsa monthly performance",
-  "asOf": "2026-10-27",
+  "asOf": "2026-10-28",
   "from": "2025-03-28",
-  "to": "2026-10-27",
-  "generated": "2026-10-27",
+  "to": "2026-10-28",
+  "generated": "2026-10-28",
   "ruleVersion": "2026-10-24",
   "metrics": [
     {

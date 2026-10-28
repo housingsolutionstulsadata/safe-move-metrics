@@ -1,0 +1,317 @@
+{
+  "schema": "smt-cot-metrics/1",
+  "title": "Safe Move Tulsa monthly performance",
+  "asOf": "2026-10-28",
+  "from": "2025-03-28",
+  "to": "2026-10-28",
+  "generated": "2026-10-28",
+  "ruleVersion": "2026-10-24",
+  "metrics": [
+    {
+      "id": "resolution.people",
+      "label": "People who exit homelessness",
+      "value": 800,
+      "unit": "people",
+      "count": 800,
+      "denominator": null,
+      "definition": "Unique people with a success from the streets downtown, an encampment or a shelter. A person counts one time."
+    },
+    {
+      "id": "resolution.goal",
+      "label": "Goal",
+      "value": 1300,
+      "unit": "people",
+      "count": null,
+      "denominator": null,
+      "definition": "The goal for successes by 12/31/2026."
+    },
+    {
+      "id": "resolution.goal_progress_pct",
+      "label": "Progress to the goal",
+      "value": 61.5,
+      "unit": "percent",
+      "count": 800,
+      "denominator": 1300,
+      "definition": "People who exit homelessness, divided by the goal."
+    },
+    {
+      "id": "durability.returned_pct",
+      "label": "Returned to homelessness within 12 months after a success",
+      "value": 4,
+      "unit": "percent",
+      "count": 32,
+      "denominator": 800,
+      "definition": "People with a return in the 12 months after their success, divided by all people who exit homelessness."
+    },
+    {
+      "id": "durability.returned_people",
+      "label": "People who returned",
+      "value": 32,
+      "unit": "people",
+      "count": 32,
+      "denominator": 800,
+      "definition": "People with a return in the 12 months after their success."
+    },
+    {
+      "id": "durability.benchmark_pct",
+      "label": "Durability benchmark",
+      "value": 20,
+      "unit": "percent",
+      "count": null,
+      "denominator": null,
+      "definition": "The share returned must be less than this."
+    },
+    {
+      "id": "conditions.closed",
+      "label": "Encampments closed",
+      "value": 12,
+      "unit": "count",
+      "count": null,
+      "denominator": null,
+      "definition": "Typed on the page."
+    },
+    {
+      "id": "conditions.maintenance_plans",
+      "label": "With maintenance plans",
+      "value": 12,
+      "unit": "count",
+      "count": null,
+      "denominator": null,
+      "definition": "Typed on the page."
+    },
+    {
+      "id": "conditions.remain_closed",
+      "label": "Encampments that remain closed",
+      "value": 12,
+      "unit": "count",
+      "count": null,
+      "denominator": null,
+      "definition": "Typed on the page."
+    },
+    {
+      "id": "conditions.remain_closed_pct",
+      "label": "Remained closed",
+      "value": 100,
+      "unit": "percent",
+      "count": 12,
+      "denominator": 12,
+      "definition": "Encampments that remain closed, divided by encampments closed."
+    },
+    {
+      "id": "conditions.tons_cleared",
+      "label": "Tons of garbage cleared",
+      "value": 189.58,
+      "unit": "count",
+      "count": null,
+      "denominator": null,
+      "definition": "Typed on the page."
+    },
+    {
+      "id": "source.downtown.people",
+      "label": "From streets/downtown",
+      "value": 70,
+      "unit": "people",
+      "count": 70,
+      "denominator": null,
+      "definition": "People with an outreach success from Safe Move Tulsa Outreach in the streets downtown (the IDL and The Collar)."
+    },
+    {
+      "id": "source.downtown.subsidy_stabilization_pct",
+      "label": "From streets/downtown: Subsidy + stabilization",
+      "value": 98.6,
+      "unit": "percent",
+      "count": 69,
+      "denominator": 70,
+      "definition": "People with no Safe Move Rapid Exit beside the outreach exit, divided by the people in the box."
+    },
+    {
+      "id": "source.downtown.rapid_exit_pct",
+      "label": "From streets/downtown: Rapid exit",
+      "value": 1.4,
+      "unit": "percent",
+      "count": 1,
+      "denominator": 70,
+      "definition": "People with a Safe Move Rapid Exit beside the outreach exit, divided by the people in the box."
+    },
+    {
+      "id": "source.encampments.people",
+      "label": "From encampments",
+      "value": 195,
+      "unit": "people",
+      "count": 195,
+      "denominator": null,
+      "definition": "People with an outreach success from Safe Move Tulsa Outreach at an encampment elsewhere."
+    },
+    {
+      "id": "source.encampments.subsidy_stabilization_pct",
+      "label": "From encampments: Subsidy + stabilization",
+      "value": 100,
+      "unit": "percent",
+      "count": 195,
+      "denominator": 195,
+      "definition": "People with no Safe Move Rapid Exit beside the outreach exit, divided by the people in the box."
+    },
+    {
+      "id": "source.encampments.rapid_exit_pct",
+      "label": "From encampments: Rapid exit",
+      "value": 0,
+      "unit": "percent",
+      "count": 0,
+      "denominator": 195,
+      "definition": "People with a Safe Move Rapid Exit beside the outreach exit, divided by the people in the box."
+    },
+    {
+      "id": "source.shelter.people",
+      "label": "From shelter",
+      "value": 535,
+      "unit": "people",
+      "count": 535,
+      "denominator": null,
+      "definition": "People whose last emergency shelter exit is a success: from a Tulsa Day Center ES (not HCHV), a Salvation Army ES, a John 3:16 ES or the CREOKS winter shelter, to a listed destination."
+    },
+    {
+      "id": "source.shelter.subsidy_stabilization_pct",
+      "label": "From shelter: Subsidy + stabilization",
+      "value": 0,
+      "unit": "percent",
+      "count": 0,
+      "denominator": 535,
+      "definition": "People who moved in, on or after the shelter exit, at an RRH project whose name ends SMT Shelter to Housing, divided by the shelter successes."
+    },
+    {
+      "id": "source.shelter.rapid_exit_pct",
+      "label": "From shelter: Rapid exit",
+      "value": 100,
+      "unit": "percent",
+      "count": 535,
+      "denominator": 535,
+      "definition": "The other shelter successes, divided by the shelter successes."
+    },
+    {
+      "id": "rapid_shelter.people",
+      "label": "Rapid exits from shelter",
+      "value": 535,
+      "unit": "people",
+      "count": 535,
+      "denominator": 535,
+      "definition": "Shelter successes with no SMT Shelter to Housing move-in."
+    },
+    {
+      "id": "rapid_shelter.pct",
+      "label": "Rapid exits from shelter",
+      "value": 100,
+      "unit": "percent",
+      "count": 535,
+      "denominator": 535,
+      "definition": "Rapid exits from shelter, divided by the shelter successes."
+    },
+    {
+      "id": "rapid_shelter.shared_housing_pct",
+      "label": "Rapid exits from shelter: Shared housing",
+      "value": 5.6,
+      "unit": "percent",
+      "count": 30,
+      "denominator": 535,
+      "definition": "A 1 in the sharedhousing column of the enrollments file."
+    },
+    {
+      "id": "rapid_shelter.family_friends_pct",
+      "label": "Rapid exits from shelter: Return to family/friends",
+      "value": 31.4,
+      "unit": "percent",
+      "count": 168,
+      "denominator": 535,
+      "definition": "Not shared housing, and an exit to family or friends."
+    },
+    {
+      "id": "rapid_shelter.independent_housing_pct",
+      "label": "Rapid exits from shelter: Independent housing",
+      "value": 63,
+      "unit": "percent",
+      "count": 337,
+      "denominator": 535,
+      "definition": "All other rapid exits from shelter."
+    },
+    {
+      "id": "durability_bar.all.returning_pct",
+      "label": "All SMT exits: returning",
+      "value": 4,
+      "unit": "percent",
+      "count": 32,
+      "denominator": 800,
+      "definition": "People in this group with a return in the 12 months after their success, divided by the group."
+    },
+    {
+      "id": "durability_bar.all.not_returning_pct",
+      "label": "All SMT exits: not returning",
+      "value": 96,
+      "unit": "percent",
+      "count": 768,
+      "denominator": 800,
+      "definition": "The rest of the group."
+    },
+    {
+      "id": "durability_bar.all.benchmark_pct",
+      "label": "All SMT exits: benchmark",
+      "value": 20,
+      "unit": "percent",
+      "count": null,
+      "denominator": null,
+      "definition": "The share returning must be less than this."
+    },
+    {
+      "id": "durability_bar.subsidy_stabilization.returning_pct",
+      "label": "Subsidy + stabilization exits: returning",
+      "value": 5.7,
+      "unit": "percent",
+      "count": 15,
+      "denominator": 264,
+      "definition": "People in this group with a return in the 12 months after their success, divided by the group."
+    },
+    {
+      "id": "durability_bar.subsidy_stabilization.not_returning_pct",
+      "label": "Subsidy + stabilization exits: not returning",
+      "value": 94.3,
+      "unit": "percent",
+      "count": 249,
+      "denominator": 264,
+      "definition": "The rest of the group."
+    },
+    {
+      "id": "durability_bar.subsidy_stabilization.benchmark_pct",
+      "label": "Subsidy + stabilization exits: benchmark",
+      "value": 15,
+      "unit": "percent",
+      "count": null,
+      "denominator": null,
+      "definition": "The share returning must be less than this."
+    },
+    {
+      "id": "durability_bar.rapid.returning_pct",
+      "label": "Rapid exits: returning",
+      "value": 3.2,
+      "unit": "percent",
+      "count": 17,
+      "denominator": 536,
+      "definition": "People in this group with a return in the 12 months after their success, divided by the group."
+    },
+    {
+      "id": "durability_bar.rapid.not_returning_pct",
+      "label": "Rapid exits: not returning",
+      "value": 96.8,
+      "unit": "percent",
+      "count": 519,
+      "denominator": 536,
+      "definition": "The rest of the group."
+    },
+    {
+      "id": "durability_bar.rapid.benchmark_pct",
+      "label": "Rapid exits: benchmark",
+      "value": 30,
+      "unit": "percent",
+      "count": null,
+      "denominator": null,
+      "definition": "The share returning must be less than this."
+    }
+  ]
+}
